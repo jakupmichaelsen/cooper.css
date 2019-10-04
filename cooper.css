@@ -1,0 +1,516 @@
+/*********************************************
+ * FONTS
+ *********************************************/
+@import url(https://fonts.googleapis.com/css?family=Limelight:regular);
+@import url(https://fonts.googleapis.com/css?family=Fascinate:regular);
+@import url(https://fonts.googleapis.com/css?family=Erica+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Londrina+Sketch:regular);
+@import url(https://fonts.googleapis.com/css?family=Londrina+Shadow:regular);
+@import url(https://fonts.googleapis.com/css?family=Londrina+Solid:100,300,regular,900);
+@import url(https://fonts.googleapis.com/css?family=Londrina+Outline:regular);
+@import url(https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:regular,700);
+@import url(https://fonts.googleapis.com/css?family=Barrio:regular);
+@import url(https://fonts.googleapis.com/css?family=Diplomata:regular);
+@import url(https://fonts.googleapis.com/css?family=Chango:regular);
+@import url(https://fonts.googleapis.com/css?family=Milonga:regular);
+@import url(https://fonts.googleapis.com/css?family=Ranchers:regular);
+@import url(https://fonts.googleapis.com/css?family=Bungee:regular);
+@import url(https://fonts.googleapis.com/css?family=Bungee+Shade:regular);
+@import url(https://fonts.googleapis.com/css?family=Bungee+Inline:regular);
+@import url(https://fonts.googleapis.com/css?family=Bungee+Outline:regular);
+@import url(https://fonts.googleapis.com/css?family=Bungee+Hairline:regular);
+@import url(https://fonts.googleapis.com/css?family=Vast+Shadow:regular);
+@import url(https://fonts.googleapis.com/css?family=Bowlby+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Gravitas+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface:regular);
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great:regular);
+@import url(https://fonts.googleapis.com/css?family=Nanum+Gothic:regular,700,800);
+@import url(https://fonts.googleapis.com/css?family=Bevan:regular);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Bangers:regular);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Limelight:regular);
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great:regular);
+
+/*********************************************
+* GLOBAL
+*********************************************/
+
+section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
+	color: #fff; 
+}
+
+body {
+	font-family: "Raleway"; 
+	font-weight: 400;
+	color: black;
+	font-size: 5vh;
+}
+
+.reveal p {
+	font-weight: 400;
+	margin: 0px 5% 15px 1%;
+	text-align: left; 
+	font-family: "Montserrat";
+}
+
+.reveal {
+	font-weight: 400;
+	line-height: 1.3; 
+	text-align: right; 
+}
+
+::selection {
+	color: orange;
+	background: orangered;
+	text-shadow: none; 
+}
+  
+
+/* Ensure certain elements are never larger than the slide itself */
+.reveal img,
+.reveal video,
+.reveal iframe {
+	max-width: 100%;
+	max-height: 100%; 
+	border: none;
+}
+
+.reveal strong,
+.reveal b {
+	font-weight: 900; 
+}
+
+.reveal em {	
+	font-style: italic; 
+	/*text-decoration: underline; */
+}
+
+.reveal hr { 
+	font-style: italic; 
+	border: 0; 
+	border-bottom: 4px dashed silver;    
+	margin-bottom: 0.25em; 
+} 
+
+
+/*********************************************
+* HEADERS
+*********************************************/
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+	margin: 0vh 2vw 2vh 2vw;
+	font-family: "Bevan";
+	line-height: 16vh;
+	font-size: 4vh;
+}
+
+
+.reveal h3,
+.reveal h4 {
+	text-align: left; 
+}
+
+.reveal h1 {
+	font-size: 16vh; 
+	font-weight: 900;
+}
+
+.reveal h2 {
+	font-size: 9vh; 
+}
+
+.reveal h3 {
+	font-size: 6vh; 
+}
+
+
+.reveal h5,
+.reveal h6 {
+	text-align: right; 
+}
+
+.reveal h6 {
+	background-color: white; 
+	float: right;
+	text-align: left;
+	width:25%;
+}
+
+
+
+/*********************************************
+ * LISTS
+ *********************************************/
+
+.reveal li {
+	margin: 0px 10px 15px 10%;
+	text-align: left;
+	font-family: "Roboto";
+}
+
+.reveal ol {
+	list-style-type: decimal; 
+}
+
+.reveal ul {
+	list-style-type: disc; 
+}
+
+.reveal ul ul {
+	list-style-type: square; 
+}
+
+.reveal ul ul ul {
+	list-style-type: circle; 
+}
+
+/*********************************************
+ * QUOTE
+ *********************************************/
+
+
+.reveal blockquote {
+	display: block;
+	position: relative;
+  	color: black;
+	width: 70%;
+	margin: 20px auto;
+	padding: 5px;
+	font-style: italic;
+	background: #f9f9f9;
+}
+
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+	display: inline-block; 
+}
+
+
+/*********************************************
+ * CODE
+ *********************************************/
+
+.reveal pre {
+	display: block;
+	position: relative;
+	width: 90%;
+	margin: 20px auto;
+	text-align: left;
+	font-size: 4vh;
+	font-family: monospace;
+	line-height: 1.2em;
+}
+
+.reveal code {
+	font-family: monospace;
+	text-transform: none; 
+}
+
+.reveal pre code {
+	display: block;
+	padding: 5px;
+	overflow: auto;
+	max-height: 400px;
+	word-wrap: normal; 
+}
+
+/*********************************************
+ * TABLES
+ *********************************************/
+
+
+.reveal table {
+	margin: auto;
+	border-collapse: collapse;
+	border-spacing: 0; 
+}
+
+.reveal table th {
+	font-weight: bold; 
+	border-bottom: 1px solid; 
+}
+
+.reveal table th,
+.reveal table td {
+	text-align: left;
+	padding: 0.2em 0.5em 0.2em 0.5em;
+	border-bottom: 0.5px dashed; 
+}
+
+.reveal table th[align="center"],
+.reveal table td[align="center"] {
+	text-align: center; 
+}
+
+.reveal table th[align="right"],
+.reveal table td[align="right"] {
+	text-align: right; 
+}
+
+.reveal table tbody tr:last-child th,
+.reveal table tbody tr:last-child td {
+	border-bottom: none; 
+}
+
+.reveal sup {
+	vertical-align: super; 
+}
+
+.reveal sub {
+	vertical-align: sub; 
+}
+
+.reveal small {
+	display: inline-block;
+	font-size: 4vh;
+	line-height: 1.2em;
+	vertical-align: top; 
+}
+
+.reveal small * {
+	vertical-align: top; 
+}
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a {
+	color: slategrey;
+	text-decoration: none;
+	-webkit-transition: color .15s ease;
+	-moz-transition: color .15s ease;
+	transition: color .15s ease; 
+}
+
+.reveal a:hover {
+	color: #8dcffc;
+	border: none; 
+}
+
+.reveal .roll span:after {
+	color: #000;
+	background: #068de9; 
+}
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+	margin: auto;
+	display: block;
+	background: none; /* rgba(255, 255, 255, 0.12); */
+	border: none; /* 4px solid #222; */
+	min-height: 100%; 
+	top
+}
+
+.reveal section img.plain {
+	border: 0;
+}
+
+
+.reveal a:hover img {
+	background: grey;
+	border-color: slategray;
+}
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls {
+	color: black; 
+}
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+	background: white; 
+	color: black; 
+	height: 1.5vh; 
+	position: fixed;
+	/* top: 0px;   */
+	bottom: 0px;
+}
+
+/*********************************************
+  * PRINT BACKGROUND
+  *********************************************/
+ @media print {
+   .backgrounds {
+     background-color: #fff; } }
+
+/*********************************************
+* CUSTOM 
+*********************************************/
+
+
+.dropdown {
+  position: relative;  
+  display: inline-block;
+}  
+
+.dropdown-content {
+  display: none;  
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}  
+
+.dropdown:hover .dropdown-content {
+  display: block;  
+}  
+ 
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+.flex-container {
+	display: flex;
+	align-items: top; 
+	justify-content: center;
+	flex-wrap: nowrap; 
+	flex-direction: row;
+}
+
+.flex-container > div {
+	margin: 10px;
+	padding: 20px;
+	font-size: 4vh;
+	font-family: "Arial";
+}
+
+.table {
+  display: table;
+  table-layout: fixed; 
+  width: 100%;
+  text-align: left; 
+}
+
+.table >  .column {
+  display: table-cell;
+  vertical-align: top;
+  width: 50%;
+  padding: 0% 0% 1% 1%; 
+}
+
+
+#left {
+	margin: 10px 0 15px 20px;
+	text-align: left;
+	float: left;
+	z-index:-10;
+	width:48%;
+	font-size: 4vh;
+	line-height: 1.5; 
+}    
+
+#right {
+    margin: 10px 0 15px 0;
+	float: right;
+	text-align: left;
+	z-index:-10;
+	width:48%;
+	font-size: 4vh;
+	line-height: 1.5; 
+}    
+
+
+
+.grid2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: space-around;
+	word-wrap: break-word;
+}
+
+.grid3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: space-around;
+	word-wrap: break-word;
+	grid-gap: 0.5vw;
+}
+
+.grid4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-content: space-around;
+	word-wrap: break-word;
+}
+
+
+.columns {
+	display: flex;  
+	justify-content: space-around;
+	/* background-color: rgb(253, 252, 252);  */
+	/* border: 2px solid black;  */
+  } 
+  
+#Limelight {
+	font-family: "Limelight";
+} 
+
+.display, 
+.display h1,
+.display h2,
+.display h3,
+.display h4,
+.display h5,
+.display h6,
+.display p {
+	/* font-family: "Londrina Shadow"; */
+	/* font-family: "Abril Fatface"; */
+	font-family: "Fredericka the Great";
+	font-size: 18vh;
+	font-weight: 400;
+	/* color: white;  */
+	/* background-color: black; */
+	/* text-align: left;  */
+	/* width: 110%;  */
+	position: fixed;
+	/* left: -2vw; */
+	top: -1vh;
+	padding: 0;
+	margin: 0;
+	line-height: 0.8em;
+	word-break: keep-all
+}
+
+#heading {
+	font-family: "Fredericka the Great";
+	font-size: 18vh;
+	font-weight: 400;
+	margin: 0;
+	
+}
